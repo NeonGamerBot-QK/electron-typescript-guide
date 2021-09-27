@@ -1,6 +1,5 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
-
 app.on('ready', () => {
     console.log('App is ready');
 

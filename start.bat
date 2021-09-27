@@ -1,4 +1,5 @@
 @echo off
-call cd
-set pwd='${cd}'
-echo %pwd%
+echo LOADING...
+call ./install
+echo STARTING scripts
+npm start
