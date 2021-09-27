@@ -1,0 +1,2 @@
+./install.sh
+npm start 

@@ -12,5 +12,5 @@ app.on('ready', () => {
     const indexHTML = path.join(__dirname + '/index.html');
     win.loadFile(indexHTML).then(() => {
         // IMPLEMENT FANCY STUFF HERE
-    }).catch(e => console.error(e));
+    }).catch((e:any) => console.error(e));
 });
